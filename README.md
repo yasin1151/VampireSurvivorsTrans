@@ -8,3 +8,6 @@ Vampire Survivors 机翻汉化工具
 1. 通过注册表找到Vampire Survivors的安装目录
 2. 解析对应的翻译文件
 3. 通过googletrans机翻一遍，然后写回
+
+## 打包指令
+`pyinstaller -F -i .\icon\tea.ico .\code\GameTrans.py`
